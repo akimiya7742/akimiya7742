@@ -1,0 +1,30 @@
+{
+  "Competitive Programming Template": {
+    "prefix": "cpp",
+    "body": [
+      "#include <bits/stdc++.h>",
+      "#define int long long",
+      "#define pb push_back",
+      "#define all(x) (x).begin(), (x).end()",
+      "#define rall(x) (x).rbegin(), (x).rend()",
+      "#define filename \"$TM_FILENAME_BASE\"",
+      "const int MOD = 1e9 + 7;",
+      "const int INF = 1e18;",
+      "typedef std::vector<int> vii;",
+      "typedef std::pair<int, int> pii;",
+      "using namespace std; ",
+      "",
+      "signed main() {",
+      "\tios::sync_with_stdio(false);",
+      "\tcin.tie(nullptr);",
+      "\tif(fopen(filename\".inp\", \"r\")){",
+      "\t\tfreopen(filename\".inp\", \"r\", stdin);",
+      "\t\tfreopen(filename\".out\", \"w\", stdout);",
+      "\t}",
+      "\t$0",
+      "\treturn 0;",
+      "}"
+    ],
+    "description": "Basic competitive programming template with file I/O"
+  }
+}
